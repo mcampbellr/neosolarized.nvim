@@ -314,7 +314,7 @@ function M.setup(opts)
 		-- XML-like tags
 		Group.new("@tag", colors.green)
 		Group.new("@tag.attribute", colors.blue)
-		Group.new("@tag.delimiter", colors.red)
+		Group.new("@tag.delimiter", colors.orange)
 	end
 
 	function M.translate(group)
