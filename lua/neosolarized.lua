@@ -85,10 +85,10 @@ function M.setup(opts)
 	Group.new("Identifier", colors.blue, colors.none, styles.NONE)
 
 	-- any statement, conditional, repeat (for, do while), label, operator
-	Group.new("Statement", colors.green, colors.none, styles.NONE)
+	Group.new("Statement", colors.orange, colors.none, styles.NONE)
 	Group.new("PreProc", colors.orange, colors.none, styles.NONE)
 	Group.new("Type", colors.yellow, colors.none, styles.NONE)
-	Group.new("Special", colors.red, colors.none, styles.NONE)
+	Group.new("Special", colors.green, colors.none, styles.NONE)
 	Group.new("Underlined", colors.violet, colors.none, styles.NONE)
 	Group.new("Ignore", colors.none, colors.none, styles.NONE)
 	Group.new("Error", colors.red, colors.none, styles.NONE)
