@@ -151,7 +151,7 @@ function M.setup(opts)
 	Group.link("TermCursor", groups.Cursor)
 	Group.new("TermCursorNC", colors.base03, colors.base01)
 
-	Group.new("MatchParen", colors.red, colors.base01, styles.bold)
+	Group.new("MatchParen", colors.violet, colors.base01, styles.bold)
 
 	Group.new("GitGutterAdd", colors.green)
 	Group.new("GitGutterChange", colors.yellow)
