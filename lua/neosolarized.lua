@@ -102,8 +102,8 @@ function M.setup(opts)
 	Group.new("Directory", colors.blue, colors.none, styles.NONE)
 	Group.new("ErrorMsg", colors.red, colors.none, styles.reverse)
 
-	Group.new("IncSearch", colors.orange, colors.none, styles.standout)
-	Group.new("Search", colors.yellow, colors.none, styles.reverse)
+	Group.new("IncSearch", colors.violet, colors.none, styles.standout)
+	Group.new("Search", colors.violet, colors.none, styles.reverse)
 
 	Group.new("MoreMsg", colors.blue, colors.none, styles.NONE)
 	Group.new("ModeMsg", colors.blue, colors.none, styles.NONE)
